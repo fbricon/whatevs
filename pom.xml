@@ -18,4 +18,14 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/fbricon/whatevs</url>
+    </repository>
+    <snapshotRepository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/fbricon/whatevs</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
