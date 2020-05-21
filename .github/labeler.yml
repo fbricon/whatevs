@@ -1,7 +1,0 @@
-# Add 'documentation' to any changes to Markdown files
-documentation:
-  - '*.md'
-
-# Add 'code' to any file changes within 'src/main/java' folder
-code: 
-  - src/main/java/*
