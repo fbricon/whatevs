@@ -1,31 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>foo.bar.fbricon</groupId>
-	<artifactId>whatevs</artifactId>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>foo.bar.fbricon</groupId>
+  <artifactId>whatevs</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <description>
+    Whatever let's me play with the Github deployment facilities
+  </description>
+  <inceptionYear>2020</inceptionYear>
+  <contributors>
+    <contributor>
+      <name>Fred Bricon</name>
+      <organization>Red Hat, Inc</organization>
+      <organizationUrl>https://github.com/redhat-developer</organizationUrl>
+      <timezone>+1</timezone>
+    </contributor>
+  </contributors>
   <properties>
-    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.release>11</maven.compiler.release>
   </properties>
+  <scm>
+    <connection>https://github.com/fbricon/whatevs.git</connection>
+    <url>https://github.com/fbricon/whatevs</url>
+  </scm>
   <build>
     <pluginManagement>
       <plugins>
         <plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.8.1</version>
-				</plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.1</version>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
   <distributionManagement>
     <repository>
-        <id>github</id>
-        <url>https://maven.pkg.github.com/fbricon/whatevs</url>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/fbricon/whatevs</url>
     </repository>
     <snapshotRepository>
-        <id>github</id>
-        <url>https://maven.pkg.github.com/fbricon/whatevs</url>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/fbricon/whatevs</url>
     </snapshotRepository>
-</distributionManagement>
+  </distributionManagement>
 </project>
