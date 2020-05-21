@@ -4,6 +4,10 @@
   <groupId>foo.bar.fbricon</groupId>
   <artifactId>whatevs</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <organization>
+    <name>The Unorganized Organization</name>
+    <url>https://fbricon.github.io/whatevs/</url>
+  </organization>
   <description>
     Whatever let's me play with the Github deployment facilities
   </description>
