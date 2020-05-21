@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"foo.bar.fbricon","c":"Whatevs","l":"doNothing()"},{"p":"foo.bar.fbricon","c":"Whatevs","l":"Whatevs()","url":"%3Cinit%3E()"}]
