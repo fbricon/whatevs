@@ -54,4 +54,13 @@
       <url>https://maven.pkg.github.com/fbricon/whatevs</url>
     </snapshotRepository>
   </distributionManagement>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.2.0</version>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>
