@@ -9,14 +9,14 @@
   </description>
   <inceptionYear>2020</inceptionYear>
   <url>https://github.com/fbricon/whatevs</url>
-  <contributors>
-    <contributor>
+  <developers>
+    <developer>
       <name>Fred Bricon</name>
       <organization>Red Hat, Inc</organization>
       <organizationUrl>https://github.com/redhat-developer</organizationUrl>
       <timezone>+1</timezone>
-    </contributor>
-  </contributors>
+    </developer>
+  </developers>
   <properties>
     <maven.compiler.release>11</maven.compiler.release>
   </properties>
