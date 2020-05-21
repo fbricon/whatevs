@@ -8,6 +8,7 @@
     Whatever let's me play with the Github deployment facilities
   </description>
   <inceptionYear>2020</inceptionYear>
+  <url>https://github.com/fbricon/whatevs</url>
   <contributors>
     <contributor>
       <name>Fred Bricon</name>
@@ -20,7 +21,7 @@
     <maven.compiler.release>11</maven.compiler.release>
   </properties>
   <scm>
-    <connection>https://github.com/fbricon/whatevs.git</connection>
+    <connection>scm:git:https://github.com/fbricon/whatevs.git</connection>
     <url>https://github.com/fbricon/whatevs</url>
   </scm>
   <build>

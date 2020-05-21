@@ -4,6 +4,7 @@
   "[xml]": {
     "editor.autoClosingBrackets": "never",
     "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
     "editor.formatOnSave": true
   },
 }
